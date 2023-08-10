@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-scjd
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/tnevrlka-test/build-e2e-hgum-tenant/test-app-htsn/devfile-sample-python-basic-scjd@sha256:fd5b63dd986afdd2274c5a502c375231e066154b0c06a615c2c13835b71a4f88
         name: my-python
         ports:
         - containerPort: 8081
