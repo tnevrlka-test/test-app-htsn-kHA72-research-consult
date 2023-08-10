@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-scjd
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-hgum-tenant/test-app-htsn/devfile-sample-python-basic-scjd@sha256:fd5b63dd986afdd2274c5a502c375231e066154b0c06a615c2c13835b71a4f88
+        name: my-python
+        resources: {}
+status: {}
